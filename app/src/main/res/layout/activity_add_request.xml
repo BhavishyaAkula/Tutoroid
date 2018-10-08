@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".AddRequestActivity">
+
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_fullname"
+        android:drawableRight="@drawable/ic_fullname"
+        android:text="From"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="vdvad"/>
+
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_username"
+        android:text="To"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tutorid"
+        android:text="dsfsdfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Request"
+            android:inputType="text"
+            android:textColor="#000" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/addbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:background="#78909C"
+        android:textColor="#fff"/>
+
+</LinearLayout>

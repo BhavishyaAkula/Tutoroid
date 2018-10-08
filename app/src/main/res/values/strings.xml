@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Tutoroid</string>
+    <string name="title">Title</string>
+    <string name="sub_title">Sub Title</string>
+    <string name="description">description</string>
+    <string name="card">card</string>
+    <string name="full_name">Full Name: </string>
+    <string name="mobile_number">Mobile Number:</string>
+    <string name="timings_to_teach">Timings to Teach(Hrs):</string>
+    <string name="aadhar_number">Aadhar Number:</string>
+    <string name="city">City:</string>
+    <string name="address">Address:</string>
+    <string name="e_mail">E-Mail:</string>
+    <string name="classes_to_teach">Classes to Teach:</string>
+    <string name="subjects_to_teach">Subjects to Teach:</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="share">share</string>
+    <string name="search">search</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="back">Back</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="to">To:</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="subject">subject</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="password">Password</string>
+    <string name="update">UPDATE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="view_request">VIEW REQUEST</string>
+    <string name="username">username</string>
+    <string name="fullname">fullname</string>
+    <string name="mobile">Mobile</string>
+    <string name="male">Male</string>
+    <string name="register">Register</string>
+    <string name="add_request">ADD REQUEST</string>
+    <string name="about">Tutoroid is an application which helps us to find out the nearest tutors for your self and your children.So that you can have tutor at your home.
+    You can select nearest tutor and make a conversation with them directly through a phone call or a message and can reach his location through app.</string>
+    <string name="mobiletxt">Enter Valid Number</string>
+    <string name="emailtxt">Enter Valid Email</string>
+
+</resources>

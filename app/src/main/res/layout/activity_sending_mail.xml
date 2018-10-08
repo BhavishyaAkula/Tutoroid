@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SendingMailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/mailto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="number"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/mailsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/subject"
+            android:padding="10dp"
+            android:inputType="text"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/mailmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_message"
+            android:padding="10dp"
+            android:inputType="text"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/mailbtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/send_mail"
+            android:background="#00C853"
+            android:textColor="#fff"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/mailbackbtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:background="#FF7043"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+</LinearLayout>
